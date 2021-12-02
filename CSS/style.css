@@ -1,0 +1,109 @@
+
+.card-container{
+    
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem 0 2rem 0;
+    width: 90%;
+    text-align: left;
+
+}
+.sedan-card{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px 10px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 5px #7F7C82;
+}
+.suvs-card{
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px 10px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 5px #7F7C82;
+}
+.luxary-card{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px 10px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 5px #7F7C82;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', cursive;
+
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.img-card{
+    text-align: left;
+}
+.btn-sedan{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-style: none;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 150px;
+    position: relative;
+    top: 30px; 
+}
+.btn-suvs{
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-style: none;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 150px;
+    position: relative;
+    top: 30px;
+}
+.btn-luxury{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-style: none;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 150px;
+    position: relative;
+    top: 30px;
+}
+.btn-sedan:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+
+}
+.btn-suvs:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.btn-luxury:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
